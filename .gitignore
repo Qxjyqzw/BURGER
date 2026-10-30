@@ -1,0 +1,49 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+build/
+dist/
+*.egg-info/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# MacOS
+*.DS_Store
+
+# Pycharm editor settings
+.idea
+
+# VSCode editor settings
+.vscode
+
+# project-relevant
+imgui.ini
+
+
+# outputs
+/outputs
+/logs
+*.h5
+*.mp4
+*.bin
+
+# Generated simulator/pipeline outputs and local environments
+.venv*/
+third_party/
+*.log
+*.orig
+.readme_backup/
+burger/backends/libero/assets/generated/
+burger/backends/isaac/assets/generated/
+burger/pipeline/assets/textures_generated/
+
+.pytest_cache/
+.ruff_cache/
+/validation/
+*.pending

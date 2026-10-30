@@ -1,0 +1,21 @@
+# Direct dependencies for the supported Python 3.10 LIBERO environment.
+robosuite==1.4.1
+mujoco==2.3.7
+bddl==1.0.1
+numpy==1.26.4
+opencv-python==4.11.0.86
+h5py==3.11.0
+scipy==1.14.1
+pillow==11.1.0
+svgpathtools==1.6.1
+gym==0.25.2
+future==1.0.0
+easydict==1.13
+cloudpickle==3.1.1
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+matplotlib==3.10.1
+pyyaml==6.0.2
+transforms3d==0.4.2
+tqdm==4.67.1
+termcolor==2.5.0

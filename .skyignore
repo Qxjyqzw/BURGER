@@ -1,0 +1,16 @@
+.git
+.venv*
+third_party/
+outputs/
+validation/
+logs/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+burger/backends/libero/assets/generated/
+burger/backends/isaac/assets/generated/
+burger/pipeline/assets/textures_generated/

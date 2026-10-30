@@ -1,0 +1,26 @@
+name: burger-release-verification
+
+# Proposed temporary node; confirm provider image and driver compatibility.
+resources:
+  accelerators: L4:1
+  cpus: 8+
+  memory: 32+
+  disk_size: 150
+
+workdir: .
+
+setup: |
+  set -euo pipefail
+  export PATH="$HOME/.local/bin:$PATH"
+  SUDO=()
+  [[ "$(id -u)" == 0 ]] || SUDO=(sudo)
+  "${SUDO[@]}" apt-get update
+  "${SUDO[@]}" apt-get install -y git curl build-essential pkg-config ffmpeg \
+    libgl1 libegl1 libglu1-mesa libvulkan1 libglib2.0-0 libatomic1 libxt6
+  if ! command -v uv >/dev/null; then
+    curl -LsSf https://astral.sh/uv/0.9.6/install.sh | sh
+  fi
+
+run: |
+  export PATH="$HOME/.local/bin:$PATH"
+  bash scripts/verify_all.sh

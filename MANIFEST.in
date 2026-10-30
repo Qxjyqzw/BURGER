@@ -1,0 +1,6 @@
+include README.md THIRD_PARTY_NOTICES.md .skyignore
+recursive-include LICENSES *.txt
+recursive-include docs *.md
+recursive-include examples *.svg
+recursive-include sky *.yaml
+recursive-include scripts *.sh *.txt

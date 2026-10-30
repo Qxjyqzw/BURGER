@@ -1,0 +1,12 @@
+ManiSkill-derived assets
+
+ManiSkill 3.0.1 identifies its assets as Creative Commons Attribution-NonCommercial
+4.0 International (CC BY-NC 4.0), separately from its source-code license.
+
+Upstream project: https://github.com/haosulab/ManiSkill
+Version license statement: https://pypi.org/project/mani_skill/3.0.1/
+License: https://creativecommons.org/licenses/by-nc/4.0/
+Full terms: LICENSES/CC-BY-NC-4.0.txt at the repository root.
+See THIRD_PARTY_NOTICES.md for copied and derived asset categories and
+remaining per-asset provenance questions. The previous Apache-only asset
+notice was incorrect; the Apache text is retained in LICENSES/Apache-2.0.txt.
