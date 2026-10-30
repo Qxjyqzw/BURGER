@@ -15,8 +15,14 @@
 [![Isaac Sim](https://img.shields.io/badge/Isaac%20Sim-6.1-76b900?logo=nvidia&logoColor=white)](https://github.com/isaac-sim/IsaacLab)
 [![LeRobot](https://img.shields.io/badge/LeRobot-v2.1%20format-ff9d00)](https://github.com/huggingface/lerobot)
 
-**Xiangyu Xu**<sup>1\*</sup> · **Bangshuai Peng**<sup>1\*</sup> · **Ziyi Liu**<sup>1\*</sup> · **Mengjie Zhao**<sup>1\*</sup> ·
-**Chenhao Lu**<sup>1,2</sup> · **Zhengyang Fan**<sup>1</sup> · **Huazhe Xu**<sup>1,2†</sup> · **Kaizhe Hu**<sup>1,2†</sup>
+[**Xiangyu Xu**](https://openreview.net/profile?id=~Xiangyu_Xu10)<sup>1\*</sup> ·
+[**Bangshuai Peng**](https://openreview.net/profile?id=~Bangshuai_Peng1)<sup>1\*</sup> ·
+[**Ziyi Liu**](https://taichi-pink.github.io/Ziyi-Liu/)<sup>1\*</sup> ·
+[**Mengjie Zhao**](https://qxjyqzw.github.io/)<sup>1\*</sup> ·
+[**Chenhao Lu**](https://ctp314.github.io/)<sup>1,2</sup> ·
+**Zhengyang Fan**<sup>1</sup> ·
+[**Huazhe Xu**](https://iiis.tsinghua.edu.cn/en/People/Faculty/XuHuazhe.htm)<sup>1,2†</sup> ·
+[**Kaizhe Hu**](https://hukz18.github.io/)<sup>1,2†</sup>
 
 <sup>1</sup>Tsinghua University · <sup>2</sup>Shanghai Qizhi Institute
 <br>
